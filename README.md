@@ -21,6 +21,8 @@ This script reads in two csv files of student and school data, merges them and t
 
 ## Citations
 
-The vast majority of the code came from in-class learnings, as well as the guide code left in the original download file. Google helped with one small exception:
+The vast majority of the code came from in-class learnings, as well as the guide code left in the original download file. Google helped with a couple of small cleanup tasks:
 
 - Replacing the index in the first summary dataframe. I wanted to get rid of the zero that appeared. Found this solution: (https://stackoverflow.com/questions/40427943/how-do-i-change-a-single-index-value-in-pandas-dataframe)
+
+- I wanted to remove the warnings that were generated when trying to aggregate text-only columns in some of the early calculations. (https://stackoverflow.com/questions/72223610/dropping-invalid-columns-futurewarning) 
